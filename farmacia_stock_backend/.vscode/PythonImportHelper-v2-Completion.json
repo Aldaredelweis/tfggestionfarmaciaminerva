@@ -1,0 +1,464 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "ProductoViewSet",
+        "importPath": "stock.views",
+        "description": "stock.views",
+        "isExtraImport": true,
+        "detail": "stock.views",
+        "documentation": {}
+    },
+    {
+        "label": "FarmaciaViewSet",
+        "importPath": "stock.views",
+        "description": "stock.views",
+        "isExtraImport": true,
+        "detail": "stock.views",
+        "documentation": {}
+    },
+    {
+        "label": "InventarioViewSet",
+        "importPath": "stock.views",
+        "description": "stock.views",
+        "isExtraImport": true,
+        "detail": "stock.views",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "importPath": "stock.views",
+        "description": "stock.views",
+        "isExtraImport": true,
+        "detail": "stock.views",
+        "documentation": {}
+    },
+    {
+        "label": "warnings",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "warnings",
+        "description": "warnings",
+        "detail": "warnings",
+        "documentation": {}
+    },
+    {
+        "label": "management",
+        "importPath": "django.core",
+        "description": "django.core",
+        "isExtraImport": true,
+        "detail": "django.core",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "djongo",
+        "description": "djongo",
+        "isExtraImport": true,
+        "detail": "djongo",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\nSECRET_KEY = 'django-insecure-1234567890'\nDEBUG = True\nALLOWED_HOSTS = []\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-1234567890'\nDEBUG = True\nALLOWED_HOSTS = []\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',\n    'djongo',",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',\n    'djongo',\n    'corsheaders',",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'corsheaders.middleware.CorsMiddleware',  # 🟢 Importante que esté primero\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "ROOT_URLCONF = 'backend.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, 'templates')],  \n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, 'templates')],  \n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'djongo',\n        'NAME': 'farmacia_db', \n        'ENFORCE_SCHEMA': False,\n        'CLIENT': {\n            'host': 'mongodb://127.0.0.1:27017/farmacia_db',\n            'username': '',\n            'password': '',\n            'authSource': 'admin',",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'es-es'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\nSTATIC_URL = '/static/'\n# 🛡️ CORS settings (para desarrollo)\nCORS_ALLOW_ALL_ORIGINS = True\n# También podrías usar esta versión más segura si tu frontend está en localhost:3000\n# CORS_ALLOWED_ORIGINS = [\"http://localhost:3000\"]",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\nSTATIC_URL = '/static/'\n# 🛡️ CORS settings (para desarrollo)\nCORS_ALLOW_ALL_ORIGINS = True\n# También podrías usar esta versión más segura si tu frontend está en localhost:3000\n# CORS_ALLOWED_ORIGINS = [\"http://localhost:3000\"]",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\nSTATIC_URL = '/static/'\n# 🛡️ CORS settings (para desarrollo)\nCORS_ALLOW_ALL_ORIGINS = True\n# También podrías usar esta versión más segura si tu frontend está en localhost:3000\n# CORS_ALLOWED_ORIGINS = [\"http://localhost:3000\"]",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_L10N",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\nSTATIC_URL = '/static/'\n# 🛡️ CORS settings (para desarrollo)\nCORS_ALLOW_ALL_ORIGINS = True\n# También podrías usar esta versión más segura si tu frontend está en localhost:3000\n# CORS_ALLOWED_ORIGINS = [\"http://localhost:3000\"]",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "USE_TZ = True\nSTATIC_URL = '/static/'\n# 🛡️ CORS settings (para desarrollo)\nCORS_ALLOW_ALL_ORIGINS = True\n# También podrías usar esta versión más segura si tu frontend está en localhost:3000\n# CORS_ALLOWED_ORIGINS = [\"http://localhost:3000\"]",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\n# 🛡️ CORS settings (para desarrollo)\nCORS_ALLOW_ALL_ORIGINS = True\n# También podrías usar esta versión más segura si tu frontend está en localhost:3000\n# CORS_ALLOWED_ORIGINS = [\"http://localhost:3000\"]",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_ALL_ORIGINS",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "CORS_ALLOW_ALL_ORIGINS = True\n# También podrías usar esta versión más segura si tu frontend está en localhost:3000\n# CORS_ALLOWED_ORIGINS = [\"http://localhost:3000\"]",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.urls",
+        "description": "backend.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register(r'productos', ProductoViewSet)\nrouter.register(r'farmacias', FarmaciaViewSet)\nrouter.register(r'inventarios', InventarioViewSet)\nurlpatterns = [\n    path('admin/', admin.site.urls),\n    path('api/', include(router.urls)),  # API REST de Django\n    path('', home, name='home'),  # Página de inicio\n]",
+        "detail": "backend.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "backend.urls",
+        "description": "backend.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('api/', include(router.urls)),  # API REST de Django\n    path('', home, name='home'),  # Página de inicio\n]",
+        "detail": "backend.urls",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0\n    for _ in value:\n        keys.append(i)\n        i += 1\n    return keys",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "Producto",
+        "kind": 6,
+        "importPath": "stock.models",
+        "description": "stock.models",
+        "peekOfCode": "class Producto(models.Model):\n    nombre = models.CharField(max_length=100)\n    descripcion = models.TextField(blank=True)\n    precio = models.FloatField(null=True, blank=True)  # CAMBIO sugerido\n    def __str__(self):\n        return self.nombre\nclass Farmacia(models.Model):\n    nombre = models.CharField(max_length=100)\n    direccion = models.TextField()\n    ubicacion = models.JSONField()",
+        "detail": "stock.models",
+        "documentation": {}
+    },
+    {
+        "label": "Farmacia",
+        "kind": 6,
+        "importPath": "stock.models",
+        "description": "stock.models",
+        "peekOfCode": "class Farmacia(models.Model):\n    nombre = models.CharField(max_length=100)\n    direccion = models.TextField()\n    ubicacion = models.JSONField()\n    def __str__(self):\n        return self.nombre\nclass Lote(models.Model):\n    fecha_caducidad = models.DateField()\n    cantidad = models.IntegerField()\n    class Meta:",
+        "detail": "stock.models",
+        "documentation": {}
+    },
+    {
+        "label": "Lote",
+        "kind": 6,
+        "importPath": "stock.models",
+        "description": "stock.models",
+        "peekOfCode": "class Lote(models.Model):\n    fecha_caducidad = models.DateField()\n    cantidad = models.IntegerField()\n    class Meta:\n        abstract = True\nclass Inventario(models.Model):\n    farmacia = models.ForeignKey(Farmacia, on_delete=models.CASCADE)\n    producto = models.ForeignKey(Producto, on_delete=models.CASCADE)\n    cantidad = models.IntegerField()\n    minimo = models.IntegerField(default=0)",
+        "detail": "stock.models",
+        "documentation": {}
+    },
+    {
+        "label": "Inventario",
+        "kind": 6,
+        "importPath": "stock.models",
+        "description": "stock.models",
+        "peekOfCode": "class Inventario(models.Model):\n    farmacia = models.ForeignKey(Farmacia, on_delete=models.CASCADE)\n    producto = models.ForeignKey(Producto, on_delete=models.CASCADE)\n    cantidad = models.IntegerField()\n    minimo = models.IntegerField(default=0)\n    lotes = models.JSONField()",
+        "detail": "stock.models",
+        "documentation": {}
+    },
+    {
+        "label": "ProductoSerializer",
+        "kind": 6,
+        "importPath": "stock.serializers",
+        "description": "stock.serializers",
+        "peekOfCode": "class ProductoSerializer(serializers.ModelSerializer):\n    precio = serializers.FloatField()\n    class Meta:\n        model = Producto\n        fields = ['id', 'nombre', 'descripcion', 'precio']\nclass FarmaciaSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Farmacia\n        fields = ['id', 'nombre', 'direccion', 'ubicacion']\nclass InventarioSerializer(serializers.ModelSerializer):",
+        "detail": "stock.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "FarmaciaSerializer",
+        "kind": 6,
+        "importPath": "stock.serializers",
+        "description": "stock.serializers",
+        "peekOfCode": "class FarmaciaSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Farmacia\n        fields = ['id', 'nombre', 'direccion', 'ubicacion']\nclass InventarioSerializer(serializers.ModelSerializer):\n    # Esto mostrará los nombres del producto y farmacia si usás depth\n    class Meta:\n        model = Inventario\n        fields = ['id', 'farmacia', 'producto', 'cantidad', 'minimo', 'lotes']\n        depth = 1  # 👈 Opcional, útil para frontend si querés datos anidados",
+        "detail": "stock.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "InventarioSerializer",
+        "kind": 6,
+        "importPath": "stock.serializers",
+        "description": "stock.serializers",
+        "peekOfCode": "class InventarioSerializer(serializers.ModelSerializer):\n    # Esto mostrará los nombres del producto y farmacia si usás depth\n    class Meta:\n        model = Inventario\n        fields = ['id', 'farmacia', 'producto', 'cantidad', 'minimo', 'lotes']\n        depth = 1  # 👈 Opcional, útil para frontend si querés datos anidados",
+        "detail": "stock.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "stock.urls",
+        "description": "stock.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', home, name='home'),  # URL para la página de inicio\n]",
+        "detail": "stock.urls",
+        "documentation": {}
+    },
+    {
+        "label": "ProductoViewSet",
+        "kind": 6,
+        "importPath": "stock.views",
+        "description": "stock.views",
+        "peekOfCode": "class ProductoViewSet(viewsets.ModelViewSet):\n    queryset = Producto.objects.all()\n    serializer_class = ProductoSerializer\nclass FarmaciaViewSet(viewsets.ModelViewSet):\n    queryset = Farmacia.objects.all()\n    serializer_class = FarmaciaSerializer\nclass InventarioViewSet(viewsets.ModelViewSet):\n    queryset = Inventario.objects.all()\n    serializer_class = InventarioSerializer\ndef home(request):",
+        "detail": "stock.views",
+        "documentation": {}
+    },
+    {
+        "label": "FarmaciaViewSet",
+        "kind": 6,
+        "importPath": "stock.views",
+        "description": "stock.views",
+        "peekOfCode": "class FarmaciaViewSet(viewsets.ModelViewSet):\n    queryset = Farmacia.objects.all()\n    serializer_class = FarmaciaSerializer\nclass InventarioViewSet(viewsets.ModelViewSet):\n    queryset = Inventario.objects.all()\n    serializer_class = InventarioSerializer\ndef home(request):\n    return HttpResponse(\"¡Django con MongoDB funcionando correctamente! 🚀\")",
+        "detail": "stock.views",
+        "documentation": {}
+    },
+    {
+        "label": "InventarioViewSet",
+        "kind": 6,
+        "importPath": "stock.views",
+        "description": "stock.views",
+        "peekOfCode": "class InventarioViewSet(viewsets.ModelViewSet):\n    queryset = Inventario.objects.all()\n    serializer_class = InventarioSerializer\ndef home(request):\n    return HttpResponse(\"¡Django con MongoDB funcionando correctamente! 🚀\")",
+        "detail": "stock.views",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "stock.views",
+        "description": "stock.views",
+        "peekOfCode": "def home(request):\n    return HttpResponse(\"¡Django con MongoDB funcionando correctamente! 🚀\")",
+        "detail": "stock.views",
+        "documentation": {}
+    }
+]
